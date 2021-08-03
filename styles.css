@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200&display=swap');
+
+
+:root{
+    --dark-green:#458B00;
+    --brown:#C19A6B;
+
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+   overflow: hidden;
+    
+    background-color: var(--dark-green);
+    background-image: url("images/groot.jpg");
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+    
+    
+    
+}
+#container{
+   padding-left:2rem;
+   padding-top:1rem;
+   padding-right: 2rem;
+   padding-bottom: 1rem;
+   background-color: var(--brown);
+   color:var(--dark-green);
+    
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-width: 2rem;
+
+    
+    width:20rem;
+    text-align: center;
+    
+    margin:auto;
+    
+
+}
+
+
+#txt-input{
+    padding:2rem;
+    resize: none;
+
+    width:90%;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size:1.5rem;
+    color: var(--dark-green);
+    margin: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--dark-green);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    background-color: var(--brown);
+    
+
+}
+#btn-translate{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--brown);
+    color:var(--dark-green);
+    width: 6rem;
+    height: 3rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-width:5px;
+    border-style: solid;
+    border-color: var(--brown);
+    align-items: center;
+    margin-left: 35rem;
+    margin-top:0rem;
+    font-weight: bold;
+    
+
+}
+#txt-output{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    padding:2rem;
+ 
+    width:90%;
+    height: 10vh;
+    border-style: solid;
+    background-color: var(--brown);
+    border-color: var(--dark-green);
+
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    font-size:1.5rem;
+    color: var(--dark-green);;
+    margin: 3rem;
+
+}
